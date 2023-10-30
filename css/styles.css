@@ -628,6 +628,9 @@ a {
   margin: 0;
   text-align: center;
 }
+.nav .nav__toggler {
+  margin-right: 2rem;
+}
 
 .nav__item {
   padding: 0.5rem 2rem;
@@ -637,6 +640,7 @@ a {
 .nav__item>a {
   color: #d2d0db;
   transition: color 0.3s;
+  
 }
 
 .nav__item>a:hover {
@@ -691,6 +695,13 @@ a {
 
 .hero__image {
   width: 100%
+}
+
+.hero .block__heading {
+  margin-right: 1.5rem;
+}
+.hero__tagline {
+  margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
